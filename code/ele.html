@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="ele.css">
+    <title>HAP E-STORE</title>
+    <script type = "text/javascript">
+	
+        function start()
+        {
+        document.getElementById("move").addEventListener("mousemove", moveone, false );
+        document.getElementById("move").addEventListener("mouseout", leaveone, false );
+        document.getElementById("move1").addEventListener("mousemove", moveone1, false );
+        document.getElementById("move1").addEventListener("mouseout", leaveone1, false );
+        }
+        
+        function moveone()
+        {
+        document.getElementById("move").innerHTML ="Hi! Welcome...";
+        }
+    
+        function leaveone()
+        {
+        document.getElementById("move").innerHTML ="One stop for all of your electronics needs";
+        }
+        function moveone1()
+        {
+        document.getElementById("move1").innerHTML ="HAPPIE-STORE";
+        }
+    
+        function leaveone1()
+        {
+        document.getElementById("move1").innerHTML ="HAP E-STORE";
+        }
+        window.addEventListener( "load", start, false );
+        window.addEventListener( "load", start1, false );
+        function start1()
+        {
+            document.getElementById("name").addEventListener("focus",focusone, false );
+            document.getElementById("name").addEventListener("blur", blurone, false );
+            document.getElementById("phno").addEventListener("focus",focustwo, false );
+            document.getElementById("phno").addEventListener("blur", blurone, false );
+            document.getElementById("email").addEventListener("focus",focusthree, false );
+            document.getElementById("email").addEventListener("blur", blurone, false );
+            document.getElementById("contact").addEventListener("submit",subfun, false );
+            document.getElementById("contact").addEventListener("reset",resetfun, false );
+        }
+
+        function focusone() 
+        {document.getElementById("help").innerHTML="Enter your name" ;
+        }
+        function focustwo() 
+        {document.getElementById("help").innerHTML="Enter your phone no." ;
+        }
+        function focusthree() 
+        {document.getElementById("help").innerHTML="Enter your email" ;
+        }
+        function blurone() 
+        { document.getElementById("help").innerHTML="" ;
+        }
+        function subfun() 
+        { window.alert("Are you Sure to submit");
+        window.alert("Thank you");
+        }
+        function resetfun() 
+        {window.alert("Are you Sure to reset")
+        }
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#cover-photo" class="hvr-wobble-horizontal">Home</a></li>
+            <div class="dropdown">
+                <li><a href="#" class="hvr-wobble-horizontal">Products🔻</a></li>
+                    <div class="dropdown-content">
+                        <li><a href="airdopes.html" class="hvr-wobble-horizontal">Airdopes TWS</a></li>
+                        <li><a href="smartwatches.html" class="hvr-wobble-horizontal">Smart Watches</a></li>
+                        <li><a href="mobile.html" class="hvr-wobble-horizontal">Stone Speakers</a></li>
+                    </div>
+            </div>
+            <li><a href="about.html" class="hvr-wobble-horizontal">About Us</a></li>
+            <li><a href="#contactus" class="hvr-wobble-horizontal">Contact Us</a></li>
+            <li><a href="log.html" class="hvr-wobble-horizontal">Login</a></li>
+        </ul>
+    </div>
+
+    <div id="cover-photo">
+        <div class="text">
+            <h1 id="move1">HAP E-STORE</h1>
+            <p id="move">...</p>
+        </div>
+    </div>
+
+    <div id="products">
+        <h2 class="title">Our Products</h2>
+        <p class="discription">We sell ...</p>
+        <picture id="Cell-Phones">
+            <p><br>Airdopes True Wireless</p>
+        </picture>
+        <picture id="Tablets">
+            <p><br>Smart Watches</p>
+        </picture>
+        <picture id="Laptops">
+            <p><br>Rockerz Wireless</p>
+        </picture>
+        <picture id="Phone-Accessories">
+            <p><br>Stone Speakers</p>
+        </picture>
+        <picture id="Cell-Phone-Plans">
+            <p><br>Limited Edition</p>
+        </picture>
+        <picture>
+            <h6>And so much more!<br>Don't miss out...</h6>
+        </picture>
+    </div>
+
+    <div id="services">
+        <h2 class="title"><hr><br>Our Services</h2>
+        <p class="discription">We offer ...</p>
+        <picture id="buy">
+            <p>Tired of your old device? you came to the right place, we buy all types of electronics from customers
+                like you "who like to stay up to date with the technology" for a good price, then you can buy your next
+                device that you look forward to own.</p>
+        </picture>
+        <picture id="repair">
+            <p>Are you facing any order-related issues? We are here to help you with a list of some helpful queries
+                 that can resolve your problem. </p>
+        </picture>
+    </div>
+
+
+
+    <div id="contactus">
+        <h2 class="title"><hr>Contact Us</h2>
+        <p class="discription">Get a hold of us, see what we have going ...</p>
+        <div id="info">
+            <h4>You can mail us @</h4>
+            <p>presanna1304@gmail.com</p>
+            <br>
+            <h4>You can call us @</h4>
+            <p>+91 88389 77595</p>
+            <br>
+            <table>
+                <h4>Products Available</h4>
+                <tbody>
+                    <tr>
+                        <td>Airdopes TWS</td>
+                        <td>Rs.999-7999</td>
+                    </tr>
+                    <tr>
+                        <td>Rockerz</td>
+                        <td>Rs.1499-9999</td>
+                    </tr>
+                    <tr>
+                        <td>Smart Watches</td>
+                        <td>Rs.1299-7999</td>
+                    </tr>
+                    <tr>
+                        <td>Stone Speakers</td>
+                        <td>Rs.699-24999</td>
+                    </tr>
+                    <tr>
+                        <td>USB Cables</td>
+                        <td>Rs.499-3999</td>
+                    </tr>
+                    <tr>
+                        <td>Wired Headphones</td>
+                        <td>Rs.499-4999</td>
+                    </tr>
+                    <tr>
+                        <td>Gaming Headphones</td>
+                        <td>Rs.1999-8999</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form id="contact" action="#" >
+            <table>
+                <thead>
+                    <th>Feedback</th>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><p id="help" style="border:none;height:0.5px;color: white"></p></td>
+                    </tr>
+                    <tr>
+ 
+                        <td><input type="text" id="name" name="first-name" placeholder="your name" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="phno" name="last-name" placeholder="your phone number (Optional)"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" name="e-mail" placeholder="your e-mail" required></td>
+                    </tr>
+                    <tr>
+                        <td><textarea placeholder="Enter your message" col="20" row="10" style="border:none; height:80pt; width: 195pt;" type="text" name="message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" style="width: 55px; color:green; border:solid;" id="sub"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset" style="width: 50px; color:blue; border:solid;" id="reset"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        <br class="clear">
+        <br><br>
+        <div id="footer">
+            <a href="https://www.facebook.com/inandout3113/photos/a.1441500215866743/1771451719538256/?type=1&theater"
+                target="_blank"><img src="facebook.png"></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="instagram.png"></a>
+            <a href="https://www.snapchat.com/" target="_blank"><img src="snapchat.png"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="twitter.png"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="youtube.png"></a>
+        </div>
+        <p id="copyright">&copy 2023 All Rights Reserved | HAP E-STORE</p>
+    </div>
+</body>
+
+</html>

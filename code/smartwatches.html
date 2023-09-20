@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="smartwatches.css">
+    
+  <title>Smart Watches</title>
+  <script type="text/javascript">
+    window.addEventListener( "load", start, false );
+
+  function start()
+	{
+	  document.getElementById("s1").addEventListener("mouseover", over, false );
+	  document.getElementById("s1").addEventListener("mouseout", out, false );
+    document.getElementById("s2").addEventListener("mouseover", over1, false );
+	  document.getElementById("s2").addEventListener("mouseout", out1, false );
+    document.getElementById("s3").addEventListener("mouseout", out2, false );
+    document.getElementById("s3").addEventListener("mouseover", over2, false );
+    document.getElementById("s4").addEventListener("mouseout", out3, false );
+    document.getElementById("s4").addEventListener("mouseover", over3, false );
+	}
+
+  function over()
+	{
+	 document.getElementById("s1").setAttribute( "src", "iris1.webp");
+  }
+  function over1()
+  {
+   document.getElementById("s2").setAttribute( "src", "pulsemouse.webp");
+	}
+
+	function out()
+	{
+	document.getElementById("s1").setAttribute( "src", "iris.webp");
+  }
+  function out1()
+  {
+  document.getElementById("s2").setAttribute( "src", "sm1.webp");
+	}
+  function over2()
+	{
+	 document.getElementById("s3").setAttribute( "src", "ftmouse.webp");
+  }
+  function out2()
+	{
+	document.getElementById("s3").setAttribute( "src", "ft.webp");
+  }
+  function over3()
+	{
+	 document.getElementById("s4").setAttribute( "src", "realme1.3mouse.avif");
+  }
+  function out3()
+	{
+	document.getElementById("s4").setAttribute( "src", "sr.jpg");
+  }
+
+  </script>
+</head>
+<body>
+  <div class="main">
+    <div class="box">
+      <img src="iris.webp" alt="" id="s1">
+      <p class="demo-type">Boat</p>
+      <h4 class="demo-title">Smart Watch-Flash</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.1999</span>
+      <span class="discounted-price">Rs.1499</span>
+          </div>
+      </div>
+      <div class="size-wrapper">
+      <p class="size">4.1⭐</p>
+            </div>
+    </div>
+    
+    
+        <div class="box">
+      <img src="sm1.webp" alt="" id="s2">
+      <p class="demo-type">Noise</p>
+      <h4 class="demo-title">Smart Watch-Pulse</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.2299</span>
+      <span class="discounted-price">Rs.1699</span>
+          </div>
+      </div>
+     <div class="size-wrapper">
+      <p class="size">4.2⭐</p>
+            </div>
+    </div>
+    
+        <div class="box">
+      <img src="ft.webp" alt="" id="s3">
+      <p class="demo-type">Fastrack</p>
+      <h4 class="demo-title">Smart Watch-Reflexplay</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.7599</span>
+      <span class="discounted-price">Rs.3499</span>
+          </div>
+      </div>
+     <div class="size-wrapper">
+      <p class="size">4.4⭐</p>
+            </div>
+    </div>
+    
+    
+        <div class="box">
+      <img src="sr.jpg" alt="" id="s4">
+      <p class="demo-type">Realme</p>
+      <h4 class="demo-title">Smart Watch-S 1.3</h4>
+      <div class="price-info">
+      <span class="color"></span>
+       <div>
+      <span class="real-price">Rs.8499</span>
+      <span class="discounted-price">Rs.4999</span>
+       </div>
+      </div>
+          <div class="size-wrapper">
+      <p class="size">4.7⭐</p>
+            </div>
+    </div>
+  </div>
+</body>
+</html>

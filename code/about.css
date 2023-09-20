@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+span {
+    font-size: large;
+    font-weight: 100;
+    color: darkmagenta;
+    font-weight: bolder;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    background: url(boAt-Airdopes148-TrueWireless-22.jpg) ;
+    background-size: cover;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    background-repeat: no-repeat;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner-container{
+    width: 55%;
+    
+    background-color: lightseagreen;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+

@@ -1,0 +1,423 @@
+html{
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar ul  {
+  float: right;
+  padding-right: 250px;
+  display: flex;
+  list-style: none;
+
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn{
+  background: #fff;
+  position: inherit;
+  border: none;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+
+.dropdown .mybutton {
+  position: inherit;
+  font-size: 15px;
+  border: none;
+  font-family: inherit;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: inherit;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a{
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+#cover-photo{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("electronic-devices-1.jpg");
+    height: 740px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    background-color: hsla(0, 0%, 20%, 0.6);
+    width: 100%;
+    padding-bottom: 7px;
+    z-index: 50;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    margin-right: 60px; 
+    text-decoration: none;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    border: 5px solid hsl(244, 100%, 70%, 0.5);
+    border-radius: 20px;
+    color: lightgray;
+    font-size: 150%;
+    width: 500px;
+    padding: 20px;
+    line-height: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text h1{
+    font-weight: 300;
+		width: 500px;
+}
+
+.text p{
+    font-weight: 700;
+		width: 500px;
+}
+
+.title{
+    font-size: 400%;
+    font-weight: 200;
+    line-height: 20px;
+    margin-bottom: 2%;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.discription{
+    font-size: 130%;
+    font-weight: 400;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+#products{
+    height: 650px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: hsl(177, 60%, 40%);
+}
+
+.nav ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #141d28;
+}
+
+ ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+ul li:hover .dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
+}
+
+#products picture{
+    margin-top: 70px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 10%;
+    height: 25%;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid white;
+}
+
+#products picture p{
+    margin-top: 55%;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+#products picture h6{
+    font-size: 200%;
+    margin-top: 30px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+#services{
+    background-color: hsl(177, 60%, 40%);
+    height: 800px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#services picture{
+    margin-top: 15px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 13%;
+    height: 33%;
+    width: 30%;
+    background-color: white;
+}
+
+#services picture p{
+    margin-top: 300px;
+    font-size: 130%;
+    font-weight: 300;
+}
+
+
+#contactus{
+    height: auto;
+    background-color: hsl(177, 60%, 40%);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#contactus div a img{
+    height: 40px;
+    margin-right: 20px;
+}
+
+#copyright{
+    font-style: italic;
+    font-size: 70%;
+    color: white;
+}
+@-webkit-keyframes hvr-wobble-horizontal {
+    16.65% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+    33.3% {
+      -webkit-transform: translateX(-6px);
+      transform: translateX(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+    66.6% {
+      -webkit-transform: translateX(-2px);
+      transform: translateX(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateX(1px);
+      transform: translateX(1px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @keyframes hvr-wobble-horizontal {
+    16.65% {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+    33.3% {
+      -webkit-transform: translateX(-6px);
+      transform: translateX(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateX(4px);
+      transform: translateX(4px);
+    }
+    66.6% {
+      -webkit-transform: translateX(-2px);
+      transform: translateX(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateX(1px);
+      transform: translateX(1px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  .hvr-wobble-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+    color: hsl(244, 100%, 85%);
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+#Cell-Phones{
+    background-image: url("airdopes2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Tablets{
+    background-image: url("sw.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Laptops{
+    background-image: url("rock.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Phone-Accessories{
+    background-image: url("bbb.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Cell-Phone-Plans{
+    background-image: url("rcb.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#buy{
+    background-image: url("ex.avif");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    border: 3px solid white;
+    font-size: 130%;
+}
+
+#repair{
+    background-image: url("or1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    border: 3px solid white;
+    font-size: 130%;
+}
+
+table{
+    margin: 1% auto;
+}
+
+#contactus form table tbody tr td{
+    vertical-align: top;
+    padding: 10px;
+}
+
+#contactus form table tbody tr td input{
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+#contactus form table tbody tr td #message{
+    resize: both;
+    overflow: auto;
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#contact{
+    float: left;
+    width: 25%;
+    height: auto;
+    text-align: left;
+    padding: 20px;
+    background-color: hsl(241, 57%, 64%);
+}
+
+#info{
+    float: left;
+    width: 25%;
+    height: auto;
+    font-weight: 200;
+    height: auto;
+    background-color: hsl(300, 100%, 30%);
+    padding: 20px;
+    margin: 0 8% 0 17%;
+}
+
+#info table{
+    margin-top: 0;
+}
+
+#info div{
+    margin-top: 0;
+}
+
+article{
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 130%;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    font-size: 110%;
+    cursor: pointer;
+}
+
+#info td{
+    padding: 5px 10px;
+    text-align: left;
+}

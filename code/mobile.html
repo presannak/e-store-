@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="mobile.css">
+    
+  <title>Stone Speakers</title>
+  <script type="text/javascript">
+    window.addEventListener( "load", start, false );
+
+  function start()
+	{
+	  document.getElementById("s1").addEventListener("mouseover", over, false );
+	  document.getElementById("s1").addEventListener("mouseout", out, false );
+    document.getElementById("s2").addEventListener("mouseover", over1, false );
+	  document.getElementById("s2").addEventListener("mouseout", out1, false );
+    document.getElementById("s3").addEventListener("mouseout", out2, false );
+    document.getElementById("s3").addEventListener("mouseover", over2, false );
+    document.getElementById("s4").addEventListener("mouseout", out3, false );
+    document.getElementById("s4").addEventListener("mouseover", over3, false );
+	}
+
+  function over()
+	{
+	 document.getElementById("s1").setAttribute( "src", "1200fmouse.jpg");
+  }
+  function over1()
+  {
+   document.getElementById("s2").setAttribute( "src", "112.jpg");
+	}
+
+	function out()
+	{
+	document.getElementById("s1").setAttribute( "src", "ss11.webp");
+  }
+  function out1()
+  {
+  document.getElementById("s2").setAttribute( "src", "111.jpg");
+	}
+  function over2()
+	{
+	 document.getElementById("s3").setAttribute( "src", "jblmouse.jpg");
+  }
+  function out2()
+	{
+	document.getElementById("s3").setAttribute( "src", "sss.webp");
+  }
+  function over3()
+	{
+	 document.getElementById("s4").setAttribute( "src", "mmouse.webp");
+  }
+  function out3()
+	{
+	document.getElementById("s4").setAttribute( "src", "ssm.jpg");
+  }
+
+  </script>
+</head>
+<body>
+  <div class="main">
+    <div class="box">
+      <img src="ss11.webp" alt="" id="s1">
+      <p class="demo-type">Boat</p>
+      <h4 class="demo-title">Stone Speaker-1000v2</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.3499</span>
+      <span class="discounted-price">Rs.3299</span>
+          </div>
+      </div>
+      <div class="size-wrapper">
+      <p class="size">4.8⭐</p>
+            </div>
+    </div>
+    
+    
+        <div class="box">
+      <img src="111.jpg" alt="" id="s2">
+      <p class="demo-type">Boat</p>
+      <h4 class="demo-title">Stone Speaker-260(Prism)</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.2699</span>
+      <span class="discounted-price">Rs.1799</span>
+          </div>
+      </div>
+     <div class="size-wrapper">
+      <p class="size">4.4⭐</p>
+            </div>
+    </div>
+    
+        <div class="box">
+      <img src="sss.webp" alt="" id="s3">
+      <p class="demo-type">Boat</p>
+      <h4 class="demo-title">Stone speaker-350</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.7599</span>
+      <span class="discounted-price">Rs.6999</span>
+          </div>
+      </div>
+     <div class="size-wrapper">
+      <p class="size">4.6⭐</p>
+            </div>
+    </div>
+    
+    
+        <div class="box">
+      <img src="ssm.jpg" alt="" id="s4">
+      <p class="demo-type">Marshall</p>
+      <h4 class="demo-title">Wireless Bluetooth-Acton 60W</h4>
+      <div class="price-info">
+      <span class="color"></span>
+       <div>
+      <span class="real-price">Rs.30999</span>
+      <span class="discounted-price">Rs.24999</span>
+       </div>
+      </div>
+          <div class="size-wrapper">
+      <p class="size">4.9⭐</p>
+            </div>
+    </div>
+  </div>
+</body>
+</html>

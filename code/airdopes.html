@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="airdopes.css">
+    
+  <title>Airdopes</title>
+  <script type="text/javascript">
+    window.addEventListener( "load", start, false );
+
+  function start()
+	{
+	  document.getElementById("a121").addEventListener("mouseover", over, false );
+	  document.getElementById("a121").addEventListener("mouseout", out, false );
+    document.getElementById("a141").addEventListener("mouseover", over1, false );
+	  document.getElementById("a141").addEventListener("mouseout", out1, false );
+    document.getElementById("realme").addEventListener("mouseout", out2, false );
+    document.getElementById("realme").addEventListener("mouseover", over2, false );
+    document.getElementById("op").addEventListener("mouseout", out3, false );
+    document.getElementById("op").addEventListener("mouseover", over3, false );
+	}
+
+  function over()
+	{
+	 document.getElementById("a121").setAttribute( "src", "a121mouse.webp");
+  }
+  function over1()
+  {
+   document.getElementById("a141").setAttribute( "src", "a141mouse.webp");
+	}
+
+	function out()
+	{
+	document.getElementById("a121").setAttribute( "src", "a1211.webp");
+  }
+  function out1()
+  {
+  document.getElementById("a141").setAttribute( "src", "a141pro.webp");
+	}
+  function over2()
+	{
+	 document.getElementById("realme").setAttribute( "src", "rmouse.png");
+  }
+  function out2()
+	{
+	document.getElementById("realme").setAttribute( "src", "ar1.jpg");
+  }
+  function over3()
+	{
+	 document.getElementById("op").setAttribute( "src", "oneplusmouse.jpg");
+  }
+  function out3()
+	{
+	document.getElementById("op").setAttribute( "src", "ao.webp");
+  }
+
+  </script>
+</head>
+<body>
+  <div class="main">
+    <div class="box">
+      <img src="a1211.webp" alt="" id="a121">
+      <p class="demo-type">boAt</p>
+      <h4 class="demo-title">Airdopes 121 Pro</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.1999</span>
+      <span class="discounted-price">Rs.1499</span>
+          </div>
+      </div>
+      <div class="size-wrapper">
+      <p class="size">4.3⭐</p>
+            </div>
+    </div>
+    
+    
+        <div class="box">
+      <img src="a141pro.webp" alt="" id="a141">
+      <p class="demo-type">Boat</p>
+      <h4 class="demo-title">Airdopes 141 Pro</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.2299</span>
+      <span class="discounted-price">Rs.1599</span>
+          </div>
+      </div>
+     <div class="size-wrapper">
+      <p class="size">4.4⭐</p>
+            </div>
+    </div>
+    
+    <div class="box">
+      <img src="ar1.jpg" alt="" id="realme">
+      <p class="demo-type">Realme</p>
+      <h4 class="demo-title">Buds Air 3 Neo</h4>
+      <div class="price-info">
+      <span class="color"></span>
+       <div>
+      <span class="real-price">Rs.2599</span>
+      <span class="discounted-price">Rs.1899</span>
+       </div>
+      </div>
+          <div class="size-wrapper">
+      <p class="size">4.5⭐</p>
+          </div>
+            </div>
+
+        <div class="box">
+      <img src="ao.webp" alt="" id="op">
+      <p class="demo-type">One plus</p>
+      <h4 class="demo-title">Buds Pro 2</h4>
+      <div class="price-info">
+      <span class="color"></span>
+        <div>
+      <span class="real-price">Rs.10999</span>
+      <span class="discounted-price">Rs.8899</span>
+          </div>
+      </div>
+     <div class="size-wrapper">
+      <p class="size">4.7⭐</p>
+            </div>
+    
+    
+    
+       
+    </div>
+  </div>
+</body>
+</html>
